@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Problemstilling}{1}{}%
+\contentsline {section}{\numberline {2}Konsept}{1}{}%
+\contentsline {section}{\numberline {3}Design}{1}{}%
+\contentsline {section}{\numberline {4}Implementering}{2}{}%
+\contentsline {subsection}{\numberline {4.1}Metode}{2}{}%
+\contentsline {subsection}{\numberline {4.2}Realisering}{2}{}%
+\contentsline {section}{\numberline {5}Verifikasjon og test}{3}{}%
+\contentsline {section}{\numberline {6}Kodene}{4}{}%
+\contentsline {subsection}{\numberline {6.1}Arduino-kode}{4}{}%
+\contentsline {subsection}{\numberline {6.2}Python-kode}{5}{}%
+\contentsline {section}{\numberline {7}Konklusjon}{5}{}%
