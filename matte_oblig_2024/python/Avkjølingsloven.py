@@ -23,7 +23,7 @@ def plot_newtons_avkjøling(T_0, T_1, T_k, tid, dt):
 
 måling_liste = []
 
-with open('temp_log_A.txt', 'r') as log:
+with open('temp_log.txt', 'r') as log:
     for linje in log:
         data = linje.strip().split(',')
         t, øl, luft = map(float, data)

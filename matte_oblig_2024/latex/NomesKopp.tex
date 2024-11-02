@@ -14,7 +14,7 @@
 
 \begin{titlepage}
     \begin{minipage}{0.3\textwidth}
-        \includegraphics[width=3cm]{Elsyslogo.png}
+        \includegraphics[width=2.5cm]{Elsyslogo.png}
     \end{minipage}
     \hfill
     \begin{minipage}{0.65\textwidth}
@@ -28,7 +28,6 @@
         \includegraphics[width=10cm]{Gruppebilde1.jpg}
     \end{center}
 \end{titlepage}
-
 \newpage
 \tableofcontents{}
 
@@ -69,9 +68,7 @@ Løser videre for \(t\):
 \[ 
 t = -\frac{1}{\alpha} \ln \left(\frac{T_{0} - T_{\text{omg}}}{T_{\text{øl}} - T_{\text{omg}}}\right)
 \]
-hvor \(t\) er tiden mellom \(T(0)\) og aktuell tid. Jeg har nå løst for kjente temperaturverdier, og setter da resultatet tilbake i originaluttrykket.
-
-Herifra kan vi finne ut hvor lang tid (\(t\)) det vil ta før ølen blir for varm, eksempelvis ved å sette 14 °C som grensen for temperatur for \(T_{\text{t}}\) (uff, det er altfor varmt øl) og bytte \(T(0)\) med den nåværende temperaturen.\\
+hvor \(t\) er tiden mellom \(T(0)\) og aktuell tid. Jeg har nå løst for kjente temperaturverdier, og setter da resultatet tilbake i originaluttrykket. Herifra kan vi finne ut hvor lang tid (\(t\)) det vil ta før ølen blir for varm, eksempelvis ved å sette 14 °C som grensen for temperatur for \(T_{\text{t}}\) (uff, det er altfor varmt øl) og bytte \(T(0)\) med den nåværende temperaturen.\\
 \subsection{Realisering}
 Jeg koblet så sammen et breadboard med luft- og væsketemperatursensorer, og en ESP-32, og startet programmeringen.
 Jeg lagde først et enkelt program for ESP-32 som sender temperaturen over seriell kommunikasjon videre til et pythonprogram som lagrer tid, temperatur i øl, og temperatur lufta i et tekstdokument. Deretter lagde jeg et nytt program som plottet dataen, sammen med den teoretiske kurven for temperaturedringen.
@@ -101,8 +98,7 @@ Som vi ser fra Figur \ref{fig:temperaturgraf}, har det vært sterkt varierende l
         \label{fig:glattet}
     \end{subfigure}
     \caption{Sammenligning av rådata og glattet data}
-\end{figure}
-
+\end{figure}\\
 Etter en test med vann var jeg klar for å teste systemet mitt med øl. Jeg jekket en nydelig dahls pils og helte den i glasset, lå temperatursensoren nedi og startet ESP'en. Etter ett minutt, og to målinger, har koden beregnet antatt tid til ølet mitt er for varmt. Den påsto at det ville ta 47 minutter, og for vitenskapens skyld bestemte jeg meg for å se om det stemte. Jeg startet nedtelling, og om vi ser fra Figur \ref{fig:tid_sammenlikn} stemte matematikkens prediksjoner av virkeligheten rimelig godt. Faktisk var feilberegningen bare på snaue 10 sekunder! Dette var godt nok for oss.
 \newline
 \begin{figure}[h!]
@@ -129,6 +125,14 @@ Etter en test med vann var jeg klar for å teste systemet mitt med øl. Jeg jekk
     \end{subfigure}
     \caption{Endelig test}
 \end{figure}
+\vfill
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{Oppkobling.JPEG}
+    \caption{Bilde av oppkoblingen}
+    \label{fig:oppkobling}
+\end{figure}
+
 \section{Kodene}
 \subsection{Arduino-kode}
 \begin{minted}{C++}
@@ -157,10 +161,10 @@ Serial.print(øltemp);
 Serial.print(',');
 Serial.println(lufttemp);
 \end{minted}
-\vfill
 \begin{center}
-    \includegraphics{GPT_math_joke.png}
+    \includegraphics[width=0.8\linewidth]{motorcycle.png}\footnote{Var ikke like stor suksess for ELSYSGK prosjektet mens vi ventet på varmt øl}
 \end{center}
+\vfill
 \subsection{Python-kode}
 Python-koden for loggføring av temperatur:
 \begin{minted}{python}
@@ -182,7 +186,7 @@ with open("temp_log.txt", "w") as file:
             file.flush()
 ser.close()
 \end{minted}
-Essensen i python-koden for plottingen er som følger;
+Essensen i python-koden for plottingen er som følger;\\
 Definisjon av den analytiske løsningsfunksjonen for newtons avkjølingslov:
 \begin{minted}{python}
 def analytisk_løsning(t, T_0, alpha, T_k):
@@ -199,20 +203,22 @@ Funksjon for plotting av teoretisk temperaturendring:
 def plot_newtons_avkjøling(T_0, T_1, T_k, tid, dt): 
     [...]
     T = analytisk_løsning(t, T_0, alpha, T_k)
-    plt.plot(t, T, label="Analytisk Vanntemperatur", color="green")
+    plt.plot(t, T, label="Analytisk Vann/øltemperatur", color="green")
     plt.axhline(T_k, color='gray', linestyle='--', label=f"Gj.sn. lufttemperatur")
     [...]
 \end{minted}
 
 \section{Konklusjon}
-Jeg kan fint konkludere med at jeg, og gruppen, har oppnådd målet. Nå kan jeg trygt sette fra meg ølen min, uten å være redd for at den blir varm. 
+Jeg kan fint konkludere med at jeg, og gruppen, har oppnådd målet. Nå kan jeg trygt sette fra meg ølen min, uten å være redd for at den blir varm.
+\vfill
 DISCLAIMER: intet øl gikk til spille under prosjektet
 
+\section*{Vedlegg}
+\textbf{LINK TIL GIT-REPO}
+\begin{center}
+    \includegraphics{GPT_math_joke.png}
+\end{center}
+\end{document}
 \section*{Referanser}
 Forfatter, Tittel, Utgiverinformasjon, år. \\
 Forfatter, Tittel, Utgiverinformasjon, år.
-
-\section*{Vedlegg}
-Ikke-nummerert rapportdel der det kan legges stoff som kan være av aktuelt for spesielt interesserte lesere og som ville redusert lesbarheten om det hadde vært inkludert i hovedteksten. Eksempler kan være større tabeller eller fullstendig kildekode.
-
-\end{document}
