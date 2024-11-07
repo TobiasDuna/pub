@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {4.1}Metode}{2}{}%
 \contentsline {subsection}{\numberline {4.2}Realisering}{2}{}%
 \contentsline {section}{\numberline {5}Verifikasjon og test}{3}{}%
-\contentsline {section}{\numberline {6}Kode}{5}{}%
+\contentsline {section}{\numberline {6}Kodene}{5}{}%
 \contentsline {subsection}{\numberline {6.1}Arduino-kode (C++)}{5}{}%
 \contentsline {subsection}{\numberline {6.2}Python-kode}{6}{}%
 \contentsline {section}{\numberline {7}Konklusjon}{6}{}%

@@ -1,13 +1,13 @@
 # Fdb version 4
-["pdflatex"] 1730543939.54098 "c:/Users/tobia/OneDrive/Dokumenter/LaTex/Matte1_oblig/NomesKopp.tex" "NomesKopp.pdf" "NomesKopp" 1730543955.77793 0
+["pdflatex"] 1730963696.19394 "c:/Users/tobia/OneDrive/Dokumenter/LaTex/Matte1_oblig/NomesKopp.tex" "NomesKopp.pdf" "NomesKopp" 1730963718.93767 0
   "Elsyslogo.png" 1730467973 36601 61a00231ce395c43a69c727e0c23995b ""
   "GPT_math_joke.png" 1730467980 9251 53bfb746a2098badf119027cbdbbf46a ""
   "Glattet_data.png" 1730467978 43103 805797aecb553e227dfcf18c8391f776 ""
   "Glattet_data_2.png" 1730467976 43093 2b8157193188c7b5c7d55f90fef54e06 ""
   "Gruppebilde1.jpg" 1730467983 186524 804b6c07d4b0126f96d3e1883545725c ""
-  "NomesKopp.aux" 1730543950 2683 2c3957991797d0e9abb8e300818eef40 "pdflatex"
-  "NomesKopp.tex" 1730543937 10072 02fddd548627d57603c2690646f44f42 ""
-  "NomesKopp.toc" 1730543955 721 7a7f0423daaa6b720eef5283b55ffad9 "pdflatex"
+  "NomesKopp.aux" 1730963711 2289 25bd84cafc5ede1f5b9615be6adc10f2 "pdflatex"
+  "NomesKopp.tex" 1730963673 9848 1f5b15b6157a5814aad25f34b7d535e6 ""
+  "NomesKopp.toc" 1730963718 723 d6477f91b0b56ee6d04cd47f8ab2f0f5 "pdflatex"
   "Oppkobling.JPEG" 1730465552 2181818 716474fe61b3cb86c682d2a69b6f8f40 ""
   "Panorama_pilsing.jpg" 1730467988 32194 dc81f8b6844be7fc32be2ab598bd63e7 ""
   "Rå_data.png" 1730467993 47286 a9268b4adfc85228520141bf98a46539 ""
@@ -21,7 +21,7 @@
   "_minted/E6AC0EB6E562E3B1A09AFC1A2EFB0D0D.highlight.minted" 1730543830 1328 87b228c8f1e30bf42a4ccfacde07718a ""
   "_minted/_4876F4A07AF8019026DB59205F9B04ED.index.minted" 1730543835 566 4df45923ef2599abaac68def70548fe2 ""
   "_minted/default.style.minted" 1730468077 6526 e1fb43a91491f41b33310478eee48cdb ""
-  "c:/Users/tobia/OneDrive/Dokumenter/LaTex/Matte1_oblig/NomesKopp.tex" 1730543937 10072 02fddd548627d57603c2690646f44f42 ""
+  "c:/Users/tobia/OneDrive/Dokumenter/LaTex/Matte1_oblig/NomesKopp.tex" 1730963673 9848 1f5b15b6157a5814aad25f34b7d535e6 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1729757017 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1729760035 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1729758424 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""

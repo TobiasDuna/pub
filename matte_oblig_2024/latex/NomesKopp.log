@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.24)  2 NOV 2024 11:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.24)  7 NOV 2024 08:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -377,19 +377,19 @@ Package pdftex.def Info: Gruppebilde1.jpg  used on input line 28.
 <Panorama_pilsing.jpg, id=13, 455.45157pt x 136.25906pt>
 File: Panorama_pilsing.jpg Graphic file (type jpg)
 <use Panorama_pilsing.jpg>
-Package pdftex.def Info: Panorama_pilsing.jpg  used on input line 50.
+Package pdftex.def Info: Panorama_pilsing.jpg  used on input line 47.
 (pdftex.def)             Requested size: 426.79135pt x 127.6864pt.
 
 
 [1 <./Panorama_pilsing.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
 <Tinka_med_pils.jpg, id=21, 455.45157pt x 204.01219pt>
 File: Tinka_med_pils.jpg Graphic file (type jpg)
 <use Tinka_med_pils.jpg>
-Package pdftex.def Info: Tinka_med_pils.jpg  used on input line 83.
+Package pdftex.def Info: Tinka_med_pils.jpg  used on input line 77.
 (pdftex.def)             Requested size: 426.79134pt x 191.1769pt.
 
 
@@ -397,17 +397,17 @@ Package pdftex.def Info: Tinka_med_pils.jpg  used on input line 83.
 <Rå_data.png, id=31, 462.528pt x 346.896pt>
 File: Rå_data.png Graphic file (type png)
 <use Rå_data.png>
-Package pdftex.def Info: Rå_data.png  used on input line 95.
+Package pdftex.def Info: Rå_data.png  used on input line 88.
 (pdftex.def)             Requested size: 192.0548pt x 144.04384pt.
 <Glattet_data.png, id=32, 462.528pt x 346.896pt>
 File: Glattet_data.png Graphic file (type png)
 <use Glattet_data.png>
-Package pdftex.def Info: Glattet_data.png  used on input line 102.
+Package pdftex.def Info: Glattet_data.png  used on input line 95.
 (pdftex.def)             Requested size: 192.0548pt x 144.04384pt.
 <tid_sammenlikning.jpg, id=33, 578.16pt x 360.59718pt>
 File: tid_sammenlikning.jpg Graphic file (type jpg)
 <use tid_sammenlikning.jpg>
-Package pdftex.def Info: tid_sammenlikning.jpg  used on input line 112.
+Package pdftex.def Info: tid_sammenlikning.jpg  used on input line 105.
 (pdftex.def)             Requested size: 298.75264pt x 186.32863pt.
 
 
@@ -415,17 +415,17 @@ Package pdftex.def Info: tid_sammenlikning.jpg  used on input line 112.
 <Rå_data_2.png, id=40, 462.528pt x 346.896pt>
 File: Rå_data_2.png Graphic file (type png)
 <use Rå_data_2.png>
-Package pdftex.def Info: Rå_data_2.png  used on input line 121.
+Package pdftex.def Info: Rå_data_2.png  used on input line 114.
 (pdftex.def)             Requested size: 192.0548pt x 144.04384pt.
 <Glattet_data_2.png, id=41, 462.528pt x 346.896pt>
 File: Glattet_data_2.png Graphic file (type png)
 <use Glattet_data_2.png>
-Package pdftex.def Info: Glattet_data_2.png  used on input line 128.
+Package pdftex.def Info: Glattet_data_2.png  used on input line 121.
 (pdftex.def)             Requested size: 192.0548pt x 144.04384pt.
 <Oppkobling.JPEG, id=42, 728.4816pt x 630.4353pt>
 File: Oppkobling.JPEG Graphic file (type jpg)
 <use Oppkobling.JPEG>
-Package pdftex.def Info: Oppkobling.JPEG  used on input line 137.
+Package pdftex.def Info: Oppkobling.JPEG  used on input line 130.
 (pdftex.def)             Requested size: 341.43437pt x 295.47734pt.
 
 
@@ -433,10 +433,10 @@ Package pdftex.def Info: Oppkobling.JPEG  used on input line 137.
 \pydata@fh@_4876F4A07AF8019026DB59205F9B04ED.data.minted=\write5
 \openout5 = `_4876F4A07AF8019026DB59205F9B04ED.data.minted'.
 
-runsystem(latexminted config  --timestamp 20241102113900 4876F4A07AF8019026DB59205F9B04ED)...executed safely (allowed).
+runsystem(latexminted config  --timestamp 20241107081457 4876F4A07AF8019026DB59205F9B04ED)...executed safely (allowed).
 
  (./_4876F4A07AF8019026DB59205F9B04ED.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20241102113900 4876F4A07AF8019026DB59205F9B04ED)...executed safely (allowed).
+runsystem(latexminted cleanconfig  --timestamp 20241107081457 4876F4A07AF8019026DB59205F9B04ED)...executed safely (allowed).
 
  (./_minted/default.style.minted)
 \c@minted@tmpdatabufferlength=\count331
@@ -447,7 +447,7 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 <motorcycle.png, id=48, 531.48563pt x 403.5075pt>
 File: motorcycle.png Graphic file (type png)
 <use motorcycle.png>
-Package pdftex.def Info: motorcycle.png  used on input line 174.
+Package pdftex.def Info: motorcycle.png  used on input line 165.
 (pdftex.def)             Requested size: 341.43437pt x 259.22289pt.
  (./_minted/D8860DB3A132446E25C5860FA3005C81.highlight.minted
 
@@ -455,10 +455,10 @@ Package pdftex.def Info: motorcycle.png  used on input line 174.
 <GPT_math_joke.png, id=56, 246.0465pt x 45.0045pt>
 File: GPT_math_joke.png Graphic file (type png)
 <use GPT_math_joke.png>
-Package pdftex.def Info: GPT_math_joke.png  used on input line 228.
+Package pdftex.def Info: GPT_math_joke.png  used on input line 217.
 (pdftex.def)             Requested size: 246.04588pt x 45.00436pt.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 234.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 223.
 
 
 [6 <./GPT_math_joke.png>] (./NomesKopp.aux)
@@ -468,19 +468,19 @@ L3 programming layer <2024-10-09>
  ***********
 \openout5 = `_4876F4A07AF8019026DB59205F9B04ED.data.minted'.
 
-runsystem(latexminted clean  --timestamp 20241102113900 4876F4A07AF8019026DB59205F9B04ED)...executed safely (allowed).
+runsystem(latexminted clean  --timestamp 20241107081457 4876F4A07AF8019026DB59205F9B04ED)...executed safely (allowed).
 
  ) 
 Here is how much of TeX's memory you used:
- 9776 strings out of 473577
- 208443 string characters out of 5732224
- 709049 words of memory out of 5000000
- 32542 multiletter control sequences out of 15000+600000
+ 9765 strings out of 473577
+ 208319 string characters out of 5732224
+ 708887 words of memory out of 5000000
+ 32531 multiletter control sequences out of 15000+600000
  565371 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,9n,93p,764b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,9n,93p,763b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on NomesKopp.pdf (7 pages, 6019276 bytes).
+Output written on NomesKopp.pdf (7 pages, 6019279 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
