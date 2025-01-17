@@ -1,4 +1,0 @@
-\begin{MintedVerbatim}[commandchars=\\\{\}]
-\PYG{k}{def} \PYG{n+nf}{analytisk\PYGZus{}løsning}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{T\PYGZus{}0}\PYG{p}{,} \PYG{n}{alpha}\PYG{p}{,} \PYG{n}{T\PYGZus{}k}\PYG{p}{)}\PYG{p}{:}
-    \PYG{k}{return} \PYG{n}{T\PYGZus{}k} \PYG{o}{+} \PYG{p}{(}\PYG{n}{T\PYGZus{}0} \PYG{o}{\PYGZhy{}} \PYG{n}{T\PYGZus{}k}\PYG{p}{)} \PYG{o}{*} \PYG{n}{np}\PYG{o}{.}\PYG{n}{exp}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{n}{alpha} \PYG{o}{*} \PYG{n}{t}\PYG{p}{)}
-\end{MintedVerbatim}

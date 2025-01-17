@@ -1,8 +1,0 @@
-\begin{MintedVerbatim}[commandchars=\\\{\}]
-\PYG{k}{def} \PYG{n+nf}{plot\PYGZus{}newtons\PYGZus{}avkjøling}\PYG{p}{(}\PYG{n}{T\PYGZus{}0}\PYG{p}{,} \PYG{n}{T\PYGZus{}1}\PYG{p}{,} \PYG{n}{T\PYGZus{}k}\PYG{p}{,} \PYG{n}{tid}\PYG{p}{,} \PYG{n}{dt}\PYG{p}{)}\PYG{p}{:}
-    \PYG{p}{[}\PYG{o}{.}\PYG{o}{.}\PYG{o}{.}\PYG{p}{]}
-    \PYG{n}{T} \PYG{o}{=} \PYG{n}{analytisk\PYGZus{}løsning}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{T\PYGZus{}0}\PYG{p}{,} \PYG{n}{alpha}\PYG{p}{,} \PYG{n}{T\PYGZus{}k}\PYG{p}{)}
-    \PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{T}\PYG{p}{,} \PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Analytisk Vanntemperatur}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{green}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
-    \PYG{n}{plt}\PYG{o}{.}\PYG{n}{axhline}\PYG{p}{(}\PYG{n}{T\PYGZus{}k}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{gray}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{n}{linestyle}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{\PYGZhy{}\PYGZhy{}}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{n}{label}\PYG{o}{=}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Gj.sn. lufttemperatur}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
-    \PYG{p}{[}\PYG{o}{.}\PYG{o}{.}\PYG{o}{.}\PYG{p}{]}
-\end{MintedVerbatim}
